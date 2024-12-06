@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pincode Lookup</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Pincode Lookup</h1>
+    <div class="form">
+      <input type="text" id="pincode" placeholder="PinCode">
+      <button id="lookupButton">Lookup</button>
+    </div>
+    <div class="error" id="errorMessage"></div>
+    <div id="loader" class="loader"></div><br>
+    <div id="results" class="results"><br>
+      <h2 id="pincodeHeader" style="display: none;"></h2><br>
+      <p id="message" style="display: none;"></p><br>
+      <input type="text" id="filter" placeholder="🔍 Filter" style="display: none;"><br>
+      <div id="postOfficesGrid" class="post-offices-grid"></div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
